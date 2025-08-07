@@ -1,0 +1,66 @@
+p {
+    color: rgb(0, 255, 42);
+    font-size: 20px;
+    font-family: Helvetica;
+    margin: 15px;
+}
+
+ h1, h2, h3 {
+    color: rgb(0, 255, 42);
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px;
+}
+body{
+    background-color: #204d58;
+}
+a {
+    color: rgb(0, 255, 42);
+    font-size: xx-large;
+}
+img {
+    width: 50%;
+}
+u {
+    color: rgb(255, 255, 255);
+}
+li, ol, h3 {
+    color: rgb(0, 255, 42);
+}
+div {
+    background-color: #1E1EFF;
+    display:flexbox;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+    text-align: left;
+}
+.menu {
+  background-color: #1E1EFF;
+  padding: 10px ;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+/* Estilo para a lista */
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para os links */
+.menu li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #00FF00;
+  cursor: pointer;
+}
+
+/* Aba ativa (opcional) */
+.menu li.ativo a {
+  color: #00FF00; /* verde neon */
+}

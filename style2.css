@@ -1,0 +1,88 @@
+p {
+    color: aliceblue;
+    font-size: x-large;
+    text-align: left;
+}
+h1, h2{
+    text-shadow: 1px 1px 3px black;
+}
+.form {
+    background-color: #00a300;
+}
+.revação{
+    background-color: #1E1EFF;
+    display: flex;
+    border-radius: 15px;
+    padding: 18px;
+    margin: 20px;
+}
+div {
+    background-color: #1E1EFF;
+    display: flex;
+    border-radius: 15px;
+    padding: 18px;
+    margin: 20px; 
+    
+}
+h2 {
+    color: #00ff2a;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+ h1 {
+    color: rgb(0, 255, 42);
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px; 
+}
+body{
+    background-color: #204d58;
+}
+a {
+    color: rgb(0, 255, 42);
+    font-size: xx-large;
+}
+img {
+    width: 15%;
+    border: 4px solid #00ff2a;
+    border-radius: 25px;
+}
+u {
+    color: rgb(255, 255, 255);
+}
+li, ol {
+    color: rgb(0, 255, 42);
+}
+/* Estilo para o menu (nav) */
+.menu {
+  background-color: #1E1EFF;
+  padding: 10px 0;
+  border-radius: 25px;
+  margin: 20px;
+}
+
+/* Estilo para a lista */
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para os links */
+.menu li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #00FF00;
+  cursor: pointer;
+}
+
+/* Aba ativa (opcional) */
+.menu li.ativo a {
+  color: #00FF00; /* verde neon */
+}
+
+
